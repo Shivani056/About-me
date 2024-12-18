@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <title>my website</title></head>
+</html>
+<style>
+     body{
+        background-image: url(background.webp); 
+        
+    }
+    h1::first-letter{
+        font-size: 2em;
+    }
+    h1:hover{
+        color: rosybrown;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        height:7%;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+        color: rosybrown;
+      }
+      .dropdown{
+        padding: 0%;
+        list-style-type: none;
+        min-width: 150px;
+        height: auto;
+        background-color: rosybrown;
+        box-shadow: -2px 2px 01px -27px rgba(0,0,0,0,3);
+        position: absolute;
+        visibility: hidden;
+      }
+    .dropdown a{
+        color: #111;
+        display: block;
+        padding: 14px 16px;
+        text-decoration: none;
+    }   
+    .dropdown a:hover{
+        background-color: #111;
+        color: white
+   
+    }
+    .has-sub:hover .dropdown{
+        visibility: visible;
+    }
+   
+    h2::first-letter{
+        font-size: 2em;
+    }
+    .my-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+.my-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color:white;
+  background-color:gray;
+  text-align: center;
+  cursor: pointer;
+}
+.my-text button:hover {
+  background-color:rosybrown; 
+}
+    p{
+        text-indent: 60px; 
+    }
+    p::first-letter{
+        font-size: 2em;
+    }
+    p:hover{
+color: rosybrown;
+    }
+    .image {
+  float: right;
+  top: 25%;
+  right: 20%;
+  text-align: center;
+  position: absolute;
+}
+img{
+    border-radius: 50%;
+}
+      </style>
+      </head>
+<body>
+   
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a>
+        <li class="has-sub"><a href="#">Education</a>
+        <ul class="dropdown">
+            <li><a href="#">10th-85%</a></li>
+            <li><a href="#">12th-85%</a></li>
+            <li><a href="#">UG-80%</a></li>
+        </ul>
+    </li>
+        <li class="has-sub"><a href="#">Skills</a>
+        <ul class="dropdown">
+            <li><a href="#">Html</a></li>
+            <li><a href="#">Css</a></li>
+            <li><a href="#">js</a></li>
+        </ul>
+    </li>
+        <li class="has-sub"><a href="#">Contact</a>
+            <ul class="dropdown">
+                <li><a href="#"> ph-9443473989</a></li>
+                <li><a href="#"> e-mail:shivaniraj2108@gmail.com</a></li>
+            </ul>
+        </li>
+      </ul>
+        <div class="my-text">
+          <h1 style="font-size:40px">Hi there, I am Shivani</h1>
+          <p style="font-size:40px">A Web Designer</p>
+          <button>Hire me</button>
+        </div>
+        <div class="image">
+        <img src="shivani.jpg.jpg" alt="shivani" width="300" height="300">
+    </div>
+      </div>
+      </body>
+      </html>
